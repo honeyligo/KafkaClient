@@ -1,0 +1,29 @@
+package maxmob.rtb;
+
+message RTBDetail_t {
+	optional int64 pid = 1;
+	optional int64 time = 2;
+	optional string ip = 3;
+}
+
+message Wn_t {
+	optional int64 time = 1;
+	optional string ip = 2;
+	optional string req_header = 3;
+	optional string args = 4;
+}
+
+message Pv_t {
+	optional int64 time = 1;
+	optional string ip = 2;
+	optional string req_header = 3;
+	optional string args = 4;
+}
+
+message Clk_t
+{
+	optional int64 time = 1;
+	optional string ip = 2;
+	optional string req_header = 3;
+	optional string args = 4;
+}
